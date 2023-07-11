@@ -1,3 +1,4 @@
+import { NavBar } from './components/NavBar/NavBar';
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.scss'
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
       <Header />
-
+      <NavBar     />
       <img src={reactLogo} className='logo react'/>
     </>
   )
