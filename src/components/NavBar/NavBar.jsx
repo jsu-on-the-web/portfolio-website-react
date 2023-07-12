@@ -1,8 +1,9 @@
-import {useState, useEffect} from "react";
+import { useState, useEffect } from "react";
+import styles from "./NavBar.module.scss";
 export function NavBar() {
     return (
         <>
-            <nav className="navbar">
+            <nav className={styles["navbar"]}>
                 <ul className="navbar__list">
                     <li className="navbar__item--home">Home</li>
                     <li className="navbar__item--about">About</li>

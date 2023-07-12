@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat+Alternates:wght@700&family=Share+Tech+Mono&display=swap");
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -24,6 +26,7 @@ a:hover {
 }
 
 body {
+  font-family: 'Cabin', sans-serif;
   margin: 0;
   display: flex;
   place-items: center;
@@ -31,9 +34,13 @@ body {
   min-height: 100vh;
 }
 
+
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+h2 {
+  font-family: "Share Tech Mono", monospace;
 }
 
 button {
