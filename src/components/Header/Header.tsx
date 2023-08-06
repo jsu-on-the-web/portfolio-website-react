@@ -1,12 +1,13 @@
 import React from 'react'
 import styles from './Header.module.scss'
+import { NavBar } from '../NavBar/NavBar'
 
 const Header = () => {
     return (
         <>
-            <header className={styles['header']}>
-                <h1 className={styles['header__title']}> &gt;jsu </h1>
-            </header>
+            <section className="font-heading">
+                <h1 className="text-7xl"> &gt;jsu </h1>
+            </section>
         </>
     )
 }

@@ -4,7 +4,7 @@ export function NavBar() {
     return (
         <>
             <nav className={styles["navbar"]}>
-                <ul className="navbar__list">
+                <ul className="navbar__list flex">
                     <li className="navbar__item--home">Home</li>
                     <li className="navbar__item--about">About</li>
                     <li className="navbar__item--skills">Skills</li>

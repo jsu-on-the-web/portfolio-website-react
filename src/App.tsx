@@ -11,8 +11,7 @@ function App() {
 
   return (
     <>
-      <Header />
-            <NavBar />
+      <Header  />
       <LandingSection />
       <img src={reactLogo} className='logo react'/>
     </>
