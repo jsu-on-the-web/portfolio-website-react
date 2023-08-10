@@ -3,7 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.scss'
 import Header from './components/Header/Header'
-import {NavBar} from './components/NavBar/NavBar'
+import { NavBar } from './components/NavBar/NavBar'
+// import { Router, Link, Route, Routes } from 'react-router-dom'
 import {LandingSection} from './components/sections/LandingSection/LandingSection';
 
 function App() {
@@ -11,8 +12,12 @@ function App() {
 
   return (
     <>
-      <Header  />
+      <Header />
       <LandingSection />
+      {/* <AboutSection /> */}
+      {/* <SkilsSection /> */}
+      {/* <ProjectsSection /> */}
+      {/* <ContactSection /> */}
       <img src={reactLogo} className='logo react'/>
     </>
   )
