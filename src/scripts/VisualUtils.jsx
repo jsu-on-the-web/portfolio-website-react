@@ -12,7 +12,7 @@
  * @param {number} [delay=100] The number of milliseconds to wait before typing the next letter (default: 100ms)
  * @returns {*}
  */
-async function typingEffect(sentence, element, delay = 100) {
+export async function typingEffect(sentence, element, delay = 100) {
     const letters = sentence.split("");
 
     // Sentence could be any length, so we need to use a while loop
