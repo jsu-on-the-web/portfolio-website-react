@@ -27,8 +27,27 @@ module.exports = {
                     800: "#A3A3A3",
                     900: "#757575",
                     950: "#545454"
-                }
                 },
+                'blue-charcoal': {
+                    DEFAULT: '#000814',
+                    50: '#70A9FF',
+                    100: '#5B9DFF',
+                    200: '#3384FF',
+                    300: '#0A6CFF',
+                    400: '#005AE0',
+                    500: '#0049B7',
+                    600: '#00398E',
+                    700: '#002966',
+                    800: '#00183D',
+                    900: '#000814',
+                    950: '#000000'
+                },
+                'midnight': {
+                    light: '#3394FF',
+                    DEFAULT: '#003566',
+                    dark: '#001D3D'
+                }
+            },
             fontFamily: {
                 body: ['Raleway', 'sans-serif'],
                 heading: ['Convergence', 'sans-serif'],
