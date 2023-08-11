@@ -49,7 +49,7 @@ module.exports = {
                 }
             },
             fontFamily: {
-                body: ['Raleway', 'sans-serif'],
+                body: ["FantasqueSansMonoNF", 'monospace'],
                 heading: ['Convergence', 'sans-serif'],
                 subheading: ['Averia Serif Libre', 'serif']
             }

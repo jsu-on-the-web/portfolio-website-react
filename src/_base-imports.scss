@@ -5,3 +5,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'FantasqueSansMonoNF';
+    src: url('/fonts/FantasqueSansMonoNF.ttf') format('truetype');
+}
