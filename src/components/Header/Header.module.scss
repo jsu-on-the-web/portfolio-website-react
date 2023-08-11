@@ -1,1 +1,9 @@
 @use '../../base-imports.scss' as bi;
+
+.header {
+    @apply font-heading;
+    width: 100vw;
+    h1 {
+        width: 100vw;
+    }
+}

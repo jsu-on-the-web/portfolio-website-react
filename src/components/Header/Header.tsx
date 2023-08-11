@@ -1,12 +1,12 @@
 import React from 'react'
-import styles from './Header.module.scss'
+import './Header.module.scss'
 import { NavBar } from '../NavBar/NavBar'
 
 const Header = () => {
     return (
         <>
-            <section className="font-heading">
-                <h1 className="text-7xl"> &gt;jsu </h1>
+            <section className="header">
+                <h1 className="text-7xl mb-6 bg-slate-500"> &gt;jsu </h1>
             </section>
         </>
     )
