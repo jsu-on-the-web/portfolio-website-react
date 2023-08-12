@@ -52,8 +52,12 @@ module.exports = {
                 body: ["FantasqueSansMonoNF", 'monospace'],
                 heading: ['Convergence', 'sans-serif'],
                 subheading: ['Averia Serif Libre', 'serif']
+            },
+            minWidth: {
+                'program-modal': '70vw'
             }
         },
+
     },
     plugins: [],
     mode: 'jit',

@@ -1,14 +1,15 @@
 @use "_base-imports.scss";
 @import url("https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat+Alternates:wght@700&family=Share+Tech+Mono&display=swap");
 :root {
-  @apply bg-blue-charcoal-900 text-blue-50;
+  @apply bg-gradient-to-b from-blue-charcoal-900 to-blue-charcoal-800 bg-cover text-blue-50;
     line-height: 1.5;
   font-weight: 400;
-
+      min-height: 500%;
 }
 
 body {
     margin: 0;
+    height: 100%;
 }
 
 /* :root {
