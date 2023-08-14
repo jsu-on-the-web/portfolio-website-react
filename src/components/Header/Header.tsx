@@ -6,7 +6,7 @@ const Header = () => {
     return (
 			<>
 				<section className="header  bg-slate-500">
-					<h1 className="text-7xl mb-6"> &gt;jsu </h1>
+					<h1 className="text-7xl mb-6 font-heading"> &gt;jsu </h1>
 				</section>
 			</>
     );

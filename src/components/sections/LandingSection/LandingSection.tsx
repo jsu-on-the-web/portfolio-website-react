@@ -10,7 +10,12 @@ export const LandingSection = () => {
 			<section className="landing w-[100vw] flex justify-center h-[100vh]">
 				{/* Add a picture of a rotating computer monitor here */}
 				{/* <img src="https://picsum.photos/id/684/600/400" alt="" /> */}
-				<section className="landing__container bg-blue-charcoal-900 self-center max-w-xl rounded-lg border-8 pt-8 pb-8 m-3 animate-fadeIn min-w-program-modal">
+				<section
+					className="landing__container bg-blue-charcoal-900 self-center max-w-xl rounded-lg border-8 pt-8 pb-8 m-3 min-w-program-modal"
+					data-te-animation-init
+					data-te-animation-reset="true"
+					data-te-animation="[fade-in-up_1s_ease-in-out]"
+				>
 					<div className="landing__text  text-left font-body pl-10 pr-10 border-t-4 border-blue-charcoal-10 pt-4 m-0">
 						<h2 className="landing__command p-2 text-4xl font-bold">
 							<TypedText text="> ./welcome" typingDelay={50} startDelay={0} />

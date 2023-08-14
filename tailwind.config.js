@@ -3,7 +3,9 @@ module.exports = {
         "./src/components/**/*.{html,jsx}",
         "./src/pages/**/*.{html,jsx}",
         "./src/containers/**/*.{html,jsx}",
-        "./index.html",],
+        "./index.html",
+        "./node_modules/tw-elements-react/dist/js/**/*.js"
+    ],
     theme: {
         extend: {
             screens: {
@@ -72,9 +74,9 @@ module.exports = {
                 fadeIn: 'fadeIn ease-in-out 1s'
             }
         },
-
+        safelist: ['animate-[fade-in-up_1s_ease-in-out]']
     },
-    plugins: [],
+    plugins: [require("tw-elements-react/dist/plugin.cjs")],
     mode: 'jit',
     module: {
         rules: [
