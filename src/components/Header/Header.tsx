@@ -4,12 +4,13 @@ import { NavBar } from '../NavBar/NavBar'
 
 const Header = () => {
     return (
-        <>
-            <section className="header">
-                <h1 className="text-7xl mb-6 bg-slate-500"> &gt;jsu </h1>
-            </section>
-        </>
-    )
+			<>
+				<section className="header  bg-slate-500">
+					<h1 className="text-7xl mb-6"> &gt;jsu </h1>
+				</section>
+			</>
+    );
+    
 }
 
 export default Header
